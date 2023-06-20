@@ -1,0 +1,194 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+ul{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    background-color: rgba(250, 216, 206);
+}
+
+header img{
+    width: 100vw;
+}
+
+nav ul{
+    text-align: center;
+    border: solid 2px rgb(58, 80, 17);
+    margin: 20px 40px 20px 40px;
+    padding: 10px;
+    background-color: rgb(209, 233, 163);
+}
+  
+  nav ul li {
+    display: inline-block;
+    padding: 12px 16px;
+  }
+
+.titulos{
+    background-color: rgba(250, 216, 206);
+    margin-top: 70px;
+    font-size: 30px;
+}
+@media (max-width: 576px){
+    .titulos{
+        font-size: 22px;
+    }
+}
+div section p{
+    font-family: 'Trirong', serif;
+    font-size: 23px;
+}
+
+@media (max-width: 576px) {
+    div section p{
+        display: none;
+    }
+}
+main h1{
+    text-align: center;
+    font-weight: 200;
+}
+
+main h2{
+    
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 21px;
+    text-align: justify;
+}
+
+main h3{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+    font-size: 16px;
+    text-align: justify;
+}
+
+#politica{
+    font-family: 'Mukta', sans-serif;
+    font-size: 21px;
+    line-height: 28px;
+    text-align: center;
+    margin: 50px;
+}
+
+main section div{
+    display: inline-block;
+    margin: 150px;
+    margin-bottom: 30px;
+    margin-left: 200px;
+}
+@media (max-width: 570px) {
+    main section div{
+        display: inline-block;
+        margin-left: 50%;
+        margin-top: 15px;
+    }
+}
+
+div img{
+    width: 276px;
+    height: 367px;
+}
+@media (max-width: 570px) {
+    div img {
+        width: 138px;
+        height: 169px;
+    }
+}
+
+#new{
+    display: inline-block;
+    border: solid 2px;
+    padding: 5px;
+    margin-left: 50%;
+    margin-top: 50px;
+}
+
+#logoindex{
+    display: inline-block;
+    margin-left: 570px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 200px;
+    height: 200px;
+}
+@media (max-width: 576px) {
+    #logoindex{
+        display: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+}
+
+#productos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-gap: 30px; 
+    margin: 1px 20px 30px 10px; 
+}
+  
+
+#preguntas{
+    margin: 50px;
+}
+
+
+table tr td {
+    padding: 10px;
+    text-align: center;
+}
+.table{
+    width: auto;
+    border-color: rgb(238, 159, 134);
+    
+     
+}
+.table>:not(caption)>*>* {
+    background-color: rgb(247, 195, 179);;
+}
+table{
+    display: inline-block;
+    border: solid 5px  rgb(247, 195, 179);
+    font-size: 30px;
+    margin-left: 400px;
+    margin-bottom: 60px;  
+}
+@media (max-width: 570px){
+    .table{
+    display: inline-block;
+    border: solid 5px  rgb(247, 195, 179);
+    font-size: 15px;
+    margin-left: 200px;
+    margin-bottom: 30px;  
+    }
+}
+
+footer{
+    background-color: rgb(248, 197, 182);
+    padding: 20px;
+    text-align: center
+      
+}
+footer p{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ce5e5e;
+    font-size: 18px; 
+}
+footer ul li{
+    display: inline;
+    margin-right: 80px;
+    margin-left: 80px;
+}
